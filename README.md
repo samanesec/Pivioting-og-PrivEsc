@@ -30,5 +30,11 @@ Denne kommandoen vil lagre nettverkstrafikken vi tar opp i en etl-fil på et van
 Nå som nettverkstrafikken blir tatt opp kan vi starte på Del C av oppgaven. <img width="940" height="241" alt="image" src="https://github.com/user-attachments/assets/67652d75-a428-4ea0-90e3-35c083971654" />
 
 ## DEL C 
-Nå starter vi opp den sårbare VM'en og kobler oss til webserveren med Internet Explorer på Windows-maskinen:<img width="811" height="415" alt="image" src="https://github.com/user-attachments/assets/d71b65d9-4fe9-4b63-be57-a1532df53db7" />
-<img width="314" height="55" alt="image" src="https://github.com/user-attachments/assets/79dbaf44-1c81-4b0c-8628-38febc43339f" />
+Nå starter vi opp den sårbare VM'en og kobler oss til webserveren med Internet Explorer på Windows-maskinen:<img width="811" height="415" alt="image" src="https://github.com/user-attachments/assets/d593755b-9017-45cc-96b3-30be780e713d" />
+
+
+
+<img width="459" height="366" alt="image" src="https://github.com/user-attachments/assets/ee6796be-1fe5-4dd4-bb92-dfb9eed5f4b0" />   <img width="360" height="200" alt="image" src="https://github.com/user-attachments/assets/821c9bae-293f-4fb8-b300-42b8f1f067a4" />
+
+
+
