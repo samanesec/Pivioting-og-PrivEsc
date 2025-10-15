@@ -52,7 +52,28 @@ Vi laster ned nettverkstrafikk-filen fra filbanen den ligger i og over til kali 
 Imotsetning til vanlig input på windows, må vi legge til en ekstra «\» på meterpreter: <img width="940" height="116" alt="image" src="https://github.com/user-attachments/assets/b6ab9445-2850-42d3-a4b8-89646c124518" />
 For å sørge for å unngå SOC-deteksjon, sletter vi filen fra offermaskinen før vi gjør oss ferdig med dette steget. Vi gjør dette med følgende kommando:
 
-<img width="696" height="300" alt="image" src="https://github.com/user-attachments/assets/c55b0e83-f57b-476f-b229-ae1d88b2ef7f" />
 
+<img width="870" height="375" alt="image" src="https://github.com/user-attachments/assets/4c3f67b8-b90f-4d32-9abf-99d11181615a" />
+
+
+Her ser vi at filen ble lastet ned til /home/kali: <img width="595" height="240" alt="image" src="https://github.com/user-attachments/assets/dff467ce-306c-497c-9caa-3569991f8812" />
+
+
+Nå må vi konvertere .etl-filen til .pcap slik at den blir lesbar med Wireshark. Dette har vi valgt å gjøre via hostmaskinen. Vi starter med å laste ned etl2pcapng fra GitHub: <img width="506" height="346" alt="image" src="https://github.com/user-attachments/assets/0216f306-b0f9-4872-a915-b87f37a610a6" />
+
+
+Når den er lastet ned vil den lagres i «Downloads» mappen. Her flytter vi også inn .etl-filen som vi flyttet fra Kali maskinen. <img width="453" height="329" alt="image" src="https://github.com/user-attachments/assets/40832e5d-ee59-4a0b-9798-5e5de9bcc1c8" />
+
+
+Nå som de begge ligger i samme mappe, går vi inn på Command Prompt på host maskinen for å konvertere filen. Første steg er å navigere til mappen hvor både etl2pcapng.exe og ntwrkcap.etl ligger: <img width="531" height="37" alt="image" src="https://github.com/user-attachments/assets/968b70fb-c388-4e73-a7d2-3302d247c4dd" />
+
+
+Deretter kan vi skrive kommandoen for å konvertere filen: <img width="688" height="68" alt="image" src="https://github.com/user-attachments/assets/38688d79-462b-4926-9b02-c63e594cba34" />
+
+
+Etter at kommandoen er kjørt ser vi at det nå er lagt til en ny fil (ntwrk.pcap) i «Downloads» mappen: <img width="715" height="272" alt="image" src="https://github.com/user-attachments/assets/59e01538-a5d4-46b6-8b5f-364ce1461e62" />
+
+
+Nå kan vi åpne denne filen i Wireshark ved å trykke på «file» øverst på venstre side. Deretter finner vi fram til hvor .pcap-filen er lagret: <img width="638" height="349" alt="image" src="https://github.com/user-attachments/assets/5e2fc705-bfa9-490d-bf88-b364fb16578e" />
 
 
