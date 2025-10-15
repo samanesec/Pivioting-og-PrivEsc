@@ -38,7 +38,7 @@ Vi skal nå logge inn med brukernavnet og passordet til en bruker med managerrol
 <img width="668" height="280" alt="image" src="https://github.com/user-attachments/assets/312fd228-7e87-409c-8ef7-76ca54e76a4d" />
 
 
-Nå som vi har logget inn, ser vi at denne brukeren har Manager-rolle som nevnt i oppgaven. Webapplikasjonen tar i bruk HTTP protokoll, noe som gjør at nettverkstrafikken ikke er kryptert og lesbar. Dette gjør det mulig for oss å se påloggingsinformasjonen når vi senere skal analysere nettverkstrafikken på Wireshark.
+Nå som vi har logget inn, ser vi at denne brukeren har Manager-rolle som vist i bildet. Webapplikasjonen tar i bruk HTTP protokoll, noe som gjør at nettverkstrafikken ikke er kryptert og er lesbar. Dette gjør det mulig for oss å se påloggingsinformasjonen når vi senere skal analysere nettverkstrafikken på Wireshark.
 
 Nå skal vi tilbake til Metasploit og stoppe packet capture. Etter avlsuttet operasjon ser vi at filen er lagret som «ntwrkcap.etl» i «c:\windows\temp» filstien <img width="738" height="149" alt="image" src="https://github.com/user-attachments/assets/ff0e09d9-f958-4282-b24e-0b544933b371" />
 
@@ -75,5 +75,14 @@ Etter at kommandoen er kjørt ser vi at det nå er lagt til en ny fil (ntwrk.pca
 
 
 Nå kan vi åpne denne filen i Wireshark ved å trykke på «file» øverst på venstre side. Deretter finner vi fram til hvor .pcap-filen er lagret: <img width="638" height="349" alt="image" src="https://github.com/user-attachments/assets/5e2fc705-bfa9-490d-bf88-b364fb16578e" />
+
+
+Nå som filen er åpnet kan vi filtrere trafikken med «http»: <img width="381" height="187" alt="image" src="https://github.com/user-attachments/assets/f6f770dc-16ae-4934-adcf-7a1bfe86601f" />
+
+
+Når vi har fått opp all trafikken på http-protokollen kan vi se inn på følgende linje: <img width="761" height="317" alt="image" src="https://github.com/user-attachments/assets/02eb62bc-0c28-4e67-a6aa-a24f50bd6661" />
+
+
+Her ser vi påloggingsinformasjonen vi logget inn med på andre sårbare vm'en. Dette ble tatt opp av nettverkstrafikken vi tok opp på den sårbare Windows-maskinen: <img width="940" height="309" alt="image" src="https://github.com/user-attachments/assets/0365a1f3-9692-419f-923e-e6c2b9399cdd" />
 
 
