@@ -10,7 +10,9 @@ Scannen bekreftet at denne maskinen er sårbar for EternalBlue-sårbarheten og a
 
 Nå som sårbarheten er bekreftet, kan du sette opp en remote execution ved hjelp av Metasploit-verktøyet. 
 
-Vi starter opp Metasplot med «msfconsole» kommando: <img width="233" height="47" alt="image" src="https://github.com/user-attachments/assets/1c53b8c1-0a6e-44b8-882c-f6af88e3e441" />
+Vi starter opp Metasplot med «msfconsole» kommando: 
+
+<img width="233" height="47" alt="image" src="https://github.com/user-attachments/assets/1c53b8c1-0a6e-44b8-882c-f6af88e3e441" />
 
 På Metasploit finnes det forskjellige moduler for denne sårbarheten. For å få listet dette opp skriver vi «search ms17-010». Dette resulterte i flere valg, blant annet remote exection for EternalBlue-sårbarheten. Vi tar i bruk denne ved skrive «use 0»: <img width="940" height="118" alt="image" src="https://github.com/user-attachments/assets/771213ff-ba7d-4edd-af3a-d143115f27f4" />
 
