@@ -34,7 +34,8 @@ Nå som nettverkstrafikken blir tatt opp kan vi starte på Del C av oppgaven. <i
 
 ## DEL C 
 
-Nå starter vi opp den sårbare VM'en og kobler oss til webserveren med Internet Explorer på Windows-maskinen:<img width="582" height="296" alt="image" src="https://github.com/user-attachments/assets/573bfd4b-3d7d-4523-afd0-f145b539cad3" />
+Nå starter vi opp den sårbare VM'en og kobler oss til webserveren med Internet Explorer på Windows-maskinen:
+<img width="582" height="296" alt="image" src="https://github.com/user-attachments/assets/573bfd4b-3d7d-4523-afd0-f145b539cad3" />
 
 
 Vi skal nå logge inn med brukernavnet og passordet til en bruker med managerrolle. Login info ble funnet i en tidligere labøvelse
