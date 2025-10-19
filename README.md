@@ -26,6 +26,8 @@ Her får vi bekreftet at vår remote execution var vellykket. Vi kan nå gå vid
 
 ## DEL B Packet Capture
 Første må vi starte en shell ved å skrive «shell»
+
+
 <img width="538" height="146" alt="image" src="https://github.com/user-attachments/assets/319ba00a-6c14-458d-86c1-46c1f823f162" />
 
 Nå som vi har fått tilgang skal vi gjennomføre en packet capture på nettverket. Vi skal bruke verktøyet «netsh». Dette er et legitimt Windows-verktøy som allerede er i maskinen. Her unngår vi å laste ned programmer som Wireshark, hvor installasjonen ville trigget SOC. Vi setter i gang packet capture ved å skrive følgende kommando: «netsh trace start capture=yes tracefile=c:\windows\temp\ntwrkcap.etl»
