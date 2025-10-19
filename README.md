@@ -21,6 +21,7 @@ Videre må vi sette payload og den vi velger er Meterpreter reverse shell: <img 
 
 Når alt er satt kan vi starte angrepet ved å skrive «exploit»:
 <img width="631" height="438" alt="image" src="https://github.com/user-attachments/assets/b15f3bd4-e6dc-4f6b-882f-15ad799c362b" />
+
 Her får vi bekreftet at vår remote execution var vellykket. Vi kan nå gå videre til Del B av angrepet.
 
 ## DEL B Packet Capture
