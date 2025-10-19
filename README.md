@@ -99,18 +99,28 @@ Deretter kan vi skrive kommandoen for å konvertere filen:
 <img width="688" height="68" alt="image" src="https://github.com/user-attachments/assets/38688d79-462b-4926-9b02-c63e594cba34" />
 
 
-Etter at kommandoen er kjørt ser vi at det nå er lagt til en ny fil (ntwrk.pcap) i «Downloads» mappen: <img width="715" height="272" alt="image" src="https://github.com/user-attachments/assets/59e01538-a5d4-46b6-8b5f-364ce1461e62" />
+Etter at kommandoen er kjørt ser vi at det nå er lagt til en ny fil (ntwrk.pcap) i «Downloads» mappen: 
+
+<img width="715" height="272" alt="image" src="https://github.com/user-attachments/assets/59e01538-a5d4-46b6-8b5f-364ce1461e62" />
 
 
-Nå kan vi åpne denne filen i Wireshark ved å trykke på «file» øverst på venstre side. Deretter finner vi fram til hvor .pcap-filen er lagret: <img width="638" height="349" alt="image" src="https://github.com/user-attachments/assets/5e2fc705-bfa9-490d-bf88-b364fb16578e" />
+Nå kan vi åpne denne filen i Wireshark ved å trykke på «file» øverst på venstre side. Deretter finner vi fram til hvor .pcap-filen er lagret: 
+
+<img width="638" height="349" alt="image" src="https://github.com/user-attachments/assets/5e2fc705-bfa9-490d-bf88-b364fb16578e" />
 
 
-Nå som filen er åpnet kan vi filtrere trafikken med «http»: <img width="381" height="187" alt="image" src="https://github.com/user-attachments/assets/f6f770dc-16ae-4934-adcf-7a1bfe86601f" />
+Nå som filen er åpnet kan vi filtrere trafikken med «http»: 
+
+<img width="381" height="187" alt="image" src="https://github.com/user-attachments/assets/f6f770dc-16ae-4934-adcf-7a1bfe86601f" />
 
 
-Når vi har fått opp all trafikken på http-protokollen kan vi se inn på følgende linje: <img width="761" height="317" alt="image" src="https://github.com/user-attachments/assets/02eb62bc-0c28-4e67-a6aa-a24f50bd6661" />
+Når vi har fått opp all trafikken på http-protokollen kan vi se inn på følgende linje: 
+
+<img width="761" height="317" alt="image" src="https://github.com/user-attachments/assets/02eb62bc-0c28-4e67-a6aa-a24f50bd6661" />
 
 
-Her ser vi påloggingsinformasjonen vi logget inn med på andre sårbare vm'en. Dette ble tatt opp av nettverkstrafikken vi tok opp på den sårbare Windows-maskinen: <img width="940" height="309" alt="image" src="https://github.com/user-attachments/assets/0365a1f3-9692-419f-923e-e6c2b9399cdd" />
+Her ser vi påloggingsinformasjonen vi logget inn med på andre sårbare vm'en. Dette ble tatt opp av nettverkstrafikken vi tok opp på den sårbare Windows-maskinen: 
+
+<img width="940" height="309" alt="image" src="https://github.com/user-attachments/assets/0365a1f3-9692-419f-923e-e6c2b9399cdd" />
 
 
