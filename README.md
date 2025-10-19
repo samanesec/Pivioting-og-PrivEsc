@@ -73,19 +73,30 @@ For å sørge for å unngå SOC-deteksjon, sletter vi filen fra offermaskinen f�
 <img width="870" height="375" alt="image" src="https://github.com/user-attachments/assets/4c3f67b8-b90f-4d32-9abf-99d11181615a" />
 
 
-Her ser vi at filen ble lastet ned til /home/kali: <img width="595" height="240" alt="image" src="https://github.com/user-attachments/assets/dff467ce-306c-497c-9caa-3569991f8812" />
+Her ser vi at filen ble lastet ned til /home/kali: 
+
+<img width="595" height="240" alt="image" src="https://github.com/user-attachments/assets/dff467ce-306c-497c-9caa-3569991f8812" />
 
 
-Nå må vi konvertere .etl-filen til .pcap slik at den blir lesbar med Wireshark. Dette har vi valgt å gjøre via hostmaskinen. Vi starter med å laste ned etl2pcapng fra GitHub: <img width="506" height="346" alt="image" src="https://github.com/user-attachments/assets/0216f306-b0f9-4872-a915-b87f37a610a6" />
+Nå må vi konvertere .etl-filen til .pcap slik at den blir lesbar med Wireshark. Dette har vi valgt å gjøre via hostmaskinen. Vi starter med å laste ned etl2pcapng fra GitHub: 
+
+<img width="506" height="346" alt="image" src="https://github.com/user-attachments/assets/0216f306-b0f9-4872-a915-b87f37a610a6" />
 
 
-Når den er lastet ned vil den lagres i «Downloads» mappen. Her flytter vi også inn .etl-filen som vi flyttet fra Kali maskinen. <img width="453" height="329" alt="image" src="https://github.com/user-attachments/assets/40832e5d-ee59-4a0b-9798-5e5de9bcc1c8" />
+Når den er lastet ned vil den lagres i «Downloads» mappen. Her flytter vi også inn .etl-filen som vi flyttet fra Kali maskinen. 
 
 
-Nå som de begge ligger i samme mappe, går vi inn på Command Prompt på host maskinen for å konvertere filen. Første steg er å navigere til mappen hvor både etl2pcapng.exe og ntwrkcap.etl ligger: <img width="531" height="37" alt="image" src="https://github.com/user-attachments/assets/968b70fb-c388-4e73-a7d2-3302d247c4dd" />
+<img width="453" height="329" alt="image" src="https://github.com/user-attachments/assets/40832e5d-ee59-4a0b-9798-5e5de9bcc1c8" />
 
 
-Deretter kan vi skrive kommandoen for å konvertere filen: <img width="688" height="68" alt="image" src="https://github.com/user-attachments/assets/38688d79-462b-4926-9b02-c63e594cba34" />
+Nå som de begge ligger i samme mappe, går vi inn på Command Prompt på host maskinen for å konvertere filen. Første steg er å navigere til mappen hvor både etl2pcapng.exe og ntwrkcap.etl ligger: 
+
+<img width="531" height="37" alt="image" src="https://github.com/user-attachments/assets/968b70fb-c388-4e73-a7d2-3302d247c4dd" />
+
+
+Deretter kan vi skrive kommandoen for å konvertere filen: 
+
+<img width="688" height="68" alt="image" src="https://github.com/user-attachments/assets/38688d79-462b-4926-9b02-c63e594cba34" />
 
 
 Etter at kommandoen er kjørt ser vi at det nå er lagt til en ny fil (ntwrk.pcap) i «Downloads» mappen: <img width="715" height="272" alt="image" src="https://github.com/user-attachments/assets/59e01538-a5d4-46b6-8b5f-364ce1461e62" />
