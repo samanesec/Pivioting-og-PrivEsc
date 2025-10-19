@@ -46,7 +46,6 @@ Denne kommandoen vil lagre nettverkstrafikken vi tar opp i en etl-fil på et van
 Nå som nettverkstrafikken blir tatt opp kan vi starte på Del C av oppgaven. <img width="940" height="241" alt="image" src="https://github.com/user-attachments/assets/67652d75-a428-4ea0-90e3-35c083971654" />
 
 ## DEL C Post-eksploit og pivotering
-
 Nå starter vi opp den sårbare VM'en og kobler oss til webserveren med Internet Explorer på Windows-maskinen:
 <img width="582" height="296" alt="image" src="https://github.com/user-attachments/assets/573bfd4b-3d7d-4523-afd0-f145b539cad3" />
 
@@ -63,7 +62,6 @@ Nå skal vi tilbake til Metasploit og stoppe packet capture. Etter avlsuttet ope
 <img width="738" height="149" alt="image" src="https://github.com/user-attachments/assets/ff0e09d9-f958-4282-b24e-0b544933b371" />
 
 ## DEL D Privilegiumheving (Privilege Escalation)
-
 For å gå tilbake til meterpreter-prompten skriver vi «exit» slik som dette: 
 
 <img width="275" height="96" alt="image" src="https://github.com/user-attachments/assets/1162d491-15ae-4957-8986-851aee191516" />
