@@ -47,7 +47,10 @@ Vi skal nå logge inn med brukernavnet og passordet til en bruker med managerrol
 
 Nå som vi har logget inn, ser vi at denne brukeren har Manager-rolle som vist i bildet. Webapplikasjonen tar i bruk HTTP protokoll, noe som gjør at nettverkstrafikken ikke er kryptert og er lesbar. Dette gjør det mulig for oss å se påloggingsinformasjonen når vi senere skal analysere nettverkstrafikken på Wireshark.
 
-Nå skal vi tilbake til Metasploit og stoppe packet capture. Etter avlsuttet operasjon ser vi at filen er lagret som «ntwrkcap.etl» i «c:\windows\temp» filstien <img width="738" height="149" alt="image" src="https://github.com/user-attachments/assets/ff0e09d9-f958-4282-b24e-0b544933b371" />
+Nå skal vi tilbake til Metasploit og stoppe packet capture. Etter avlsuttet operasjon ser vi at filen er lagret som «ntwrkcap.etl» i «c:\windows\temp» filstien 
+
+
+<img width="738" height="149" alt="image" src="https://github.com/user-attachments/assets/ff0e09d9-f958-4282-b24e-0b544933b371" />
 
 ## DEL D
 
