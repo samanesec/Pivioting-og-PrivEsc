@@ -1,10 +1,13 @@
 ## Innholdsfortegnelse
 
 - [Sammendrag](#sammendrag)
-- [DEL A – Nmap & Metasploit](#del-a-nmap--metasploit)
-- [DEL B – Packet Capture](#del-b-packet-capture)
-- [DEL C – Post-eksploit og pivotering](#del-c---post-eksploit-og-pivotering)
-- [DEL D – Privilegiumheving (Privilege Escalation)](#del-d---privilegiumheving-privilege-escalation)
+- [DEL A – Nmap & Metasploit](#del-a--nmap--metasploit)
+- [DEL B – Packet Capture](#del-b--packet-capture)
+- [DEL C – Post-eksploit og pivotering](#del-c-post-eksploit-og-pivotering)
+- [DEL D – Privilegiumheving (Privilege Escalation)](#del-d-privilegiumheving-privilege-escalation)
+
+
+
 
 
 
