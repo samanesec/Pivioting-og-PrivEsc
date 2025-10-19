@@ -54,7 +54,9 @@ Nå skal vi tilbake til Metasploit og stoppe packet capture. Etter avlsuttet ope
 
 ## DEL D
 
-For å gå tilbake til meterpreter-prompten skriver vi «exit» slik som dette: <img width="275" height="96" alt="image" src="https://github.com/user-attachments/assets/1162d491-15ae-4957-8986-851aee191516" />
+For å gå tilbake til meterpreter-prompten skriver vi «exit» slik som dette: 
+
+<img width="275" height="96" alt="image" src="https://github.com/user-attachments/assets/1162d491-15ae-4957-8986-851aee191516" />
 
 Vi laster ned nettverkstrafikk-filen fra filbanen den ligger i og over til kali maskinen vår med følgende kommando: «download c:\\windows\\temp\\ntwrkcap.etl /home/kali».
 
