@@ -1,3 +1,10 @@
+## Innholdsfortegnelse
+
+- [Sammendrag](#sammendrag)
+- [DEL A – Nmap & Metasploit](#del-a-nmap--metasploit)
+- [DEL B – Packet Capture](#del-b-packet-capture)
+- [DEL C](#del-c)
+- [DEL D](#del-d)
 
 
 ## Sammendrag
