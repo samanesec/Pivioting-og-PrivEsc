@@ -107,6 +107,9 @@ Nå som de begge ligger i samme mappe, går vi inn på Command Prompt på host m
 
 Deretter kan vi skrive kommandoen for å konvertere filen: 
 
+<img width="688" height="40" alt="image" src="https://github.com/user-attachments/assets/9644ecb9-64be-473d-beb4-aa424382599d" />
+
+
 <img width="688" height="68" alt="image" src="https://github.com/user-attachments/assets/38688d79-462b-4926-9b02-c63e594cba34" />
 
 
