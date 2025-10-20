@@ -54,6 +54,8 @@ Nå starter vi opp den sårbare VM'en og kobler oss til webserveren med Internet
 
 
 Vi skal nå logge inn med brukernavnet og passordet til en bruker med managerrolle. Login info ble funnet i en tidligere labøvelse
+
+
 <img width="668" height="280" alt="image" src="https://github.com/user-attachments/assets/312fd228-7e87-409c-8ef7-76ca54e76a4d" />
 
 
